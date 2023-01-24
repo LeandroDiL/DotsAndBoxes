@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="units.progettosdm.graphicsclass.GamePageController">
+        <Pane fx:id="allWindowPane" prefHeight="477.0" prefWidth="600.0" styleClass="parentPane" VBox.vgrow="ALWAYS">
+            <Pane fx:id="gameViewPane" layoutX="83.0" layoutY="42.0" prefHeight="393.0" prefWidth="434.0">
+                   <Pane fx:id="scoreboardAndLabelsPane" layoutX="42.0" layoutY="25.0" prefHeight="342.0" prefWidth="353.0" styleClass="tablePane" />
+            </Pane>
+            <Button fx:id="exitButton" mnemonicParsing="false" text="Esci dal gioco" />
+            <Button fx:id="backwardsButton" mnemonicParsing="false" text="Indietro" />
+        </Pane>
+</VBox>

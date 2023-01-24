@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('font/FredokaOne-Regular.ttf');
+}
+
+.button{
+    -fx-font-family: 'Fredoka One';
+    -fx-font-size: 15;
+}
+
+.exit{
+    -fx-font-family: 'Fredoka One';
+    -fx-font-size: 23;
+    -fx-background-color: transparent;
+}
+.backwards{
+    -fx-font-family: 'Fredoka One';
+    -fx-font-size: 23;
+    -fx-background-color: transparent;
+}
+
+.button:hover
+{
+  -fx-text-fill: rgb(255, 0, 255);
+}
+
+
+.label{
+    -fx-font-family: 'Fredoka One';
+    -fx-font-size: 30;
+}
+
+.label-victoryPopup{
+    -fx-font-family: 'Fredoka One';
+    -fx-font-size: 15;
+}
+
+.boxes{
+    -fx-font-family: 'Fredoka One';
+}
+
+#finishGamePopup{
+    -fx-background-color:white;
+    -fx-border-color: black ;
+    -fx-border-width: 2;
+}
+
+.circle + .label{
+    -fx-font-family: 'Fredoka One';
+    -fx-font-size: 20;
+}
